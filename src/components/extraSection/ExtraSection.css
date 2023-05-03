@@ -1,0 +1,32 @@
+
+.projectDiv {
+    display: flex;
+    justify-content: space-around;
+}
+
+.info h3 {
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 53px;
+    color: #424242;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.info p {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 23px;
+    color: #727272;
+    margin-top: 5px;
+}
+
+.project {
+    Width: 150px;
+    Height: 150px;
+    border: 1px solid #FF900E;
+    margin-bottom: 25px;
+    text-align: center;
+    border-radius: 10px;
+}
+
