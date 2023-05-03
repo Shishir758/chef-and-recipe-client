@@ -21,5 +21,5 @@
 
 Then clicking Home we redirect to homepage.
 
-[LiveSite Link] (https://clinquant-lamington-550aa6.netlify.app/)
+[LiveSite Link] 
 
