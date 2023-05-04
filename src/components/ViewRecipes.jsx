@@ -67,7 +67,7 @@ const ViewRecipes = () => {
              <span className='font-bold ms-2'> {data?.rating}</span> 
              </div>
              
-              <p><span className='font-bold'>Number of Recipes:</span> {data.ingredients.map(s => (<li>{s}</li>))} </p>
+              <p><span className='font-bold'>Ingredients:</span> {data.ingredients.map(s => (<li>{s}</li>))} </p>
               <p><span className='font-bold'>Cooking Method:</span> {data.cookingMethod} </p>
 
               <button className='btn disabled:hover:bg-blue-400 '
