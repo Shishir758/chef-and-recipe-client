@@ -16,28 +16,28 @@ const ExtraSection = () => {
                     <div className="projectDiv items-center">
                         <div className="project">
                             <div className="info">
-                                <img className="mx-auto mt-1" src="../../../public/Icons/customers.png" alt="" />
+                                <img className="mx-auto mt-1" src="/public/customers.png" alt="" />
                                 <h3>54</h3>
                                 <p>Order Running</p>
                             </div>
                         </div>
                         <div className="project">
                             <div className="info">
-                                <img className="mx-auto mt-1" src="../../../public/Icons/projects.png" alt="" />
+                                <img className="mx-auto mt-1" src="/public/projects.png" alt="" />
                                 <h3>1458</h3>
                                 <p>Order Completed</p>
                             </div>
                         </div>
                         <div className="project">
                             <div className="info">
-                                <img className="mx-auto mt-1" src="../../../public/Icons/ribon.png" alt="" />
+                                <img className="mx-auto mt-1" src="/public/ribon.png" alt="" />
                                 <h3>590</h3>
                                 <p>Award Winnings</p>
                             </div>
                         </div>
                         <div className="project">
                             <div className="info">
-                                <img className="mx-auto mt-1" src="../../../public/Icons/email.png" alt="" />
+                                <img className="mx-auto mt-1" src="/public/email.png" alt="" />
                                 <h3>22578</h3>
                                 <p>Email Send</p>
                             </div>

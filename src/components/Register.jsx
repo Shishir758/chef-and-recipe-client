@@ -5,6 +5,7 @@ import Header from './Header';
 import { useState } from 'react';
 import { useContext } from 'react';
 import { AuthContext } from './provider/AuthProviders';
+import { getAuth, updateProfile } from "firebase/auth";
 
 const Register = () => {
   const { createUser } = useContext(AuthContext);
@@ -12,15 +13,27 @@ const Register = () => {
   const [success, setSuccess] = useState('');
   const navigate = useNavigate();
 
+  const auth = getAuth();
+
   const handleSubmit = (event) => {
     event.preventDefault();
     setSuccess('')
     const email = event.target.email.value;
     const password = event.target.password.value;
+    const username = event.target.username.value;
+    const photoUrl = event.target.profilePhoto.value;
 
     createUser(email, password)
       .then((userCredential) => {
         const user = userCredential.user;
+        const auth = getAuth();
+        updateProfile(auth.currentUser, {
+          displayName: username, photoURL: photoUrl
+        }).then(() => {
+
+        }).catch((error) => {
+
+        });
         setError('');
         event.target.reset();
         navigate('/');

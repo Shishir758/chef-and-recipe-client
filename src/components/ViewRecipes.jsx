@@ -15,7 +15,7 @@ const ViewRecipes = () => {
   const [rating, setRating] = useState(0)
 
   useEffect(() => {
-    fetch('../../public/detailsData.json')
+    fetch('https://special-jp-chef-shishir758.vercel.app/detailsData')
       .then(response => response.json())
       .then(data => setDetailsData(data))
   }, []);

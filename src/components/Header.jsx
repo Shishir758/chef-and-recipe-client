@@ -87,8 +87,8 @@ const Header = () => {
             
 
           )}
-          {user && <img data-tooltip-id="my-tooltip" data-tooltip-content={user.email}
-            src={user.profileURL}
+          {user && <img data-tooltip-id="my-tooltip" data-tooltip-content={user.displayName}
+            src={user.photoURL}
             className="h-[45px] w-[45px] rounded-full inline-block"
             alt="" />}
         </div>

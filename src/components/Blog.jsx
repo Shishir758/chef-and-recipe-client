@@ -1,12 +1,15 @@
 import React from 'react';
 import Footer from './Footer';
 import Header from './Header';
+import Pdf from "react-to-pdf";
+
+const ref = React.createRef();
 
 const blog = () => {
 
   return (
     <><Header></Header>
-      <div className="mt-5" id="download ">
+      <div className="mt-5">
         <h4 className="mb-5 text-center font-bold">
           FAQ of Assignment Ten(10)
         </h4>
@@ -23,7 +26,7 @@ const blog = () => {
           </div>
           <div className="col-md-6">
 
-            <div className="mt-5">
+            <div className="mt-5 " ref={ref}>
               <h5 className='font-bold'>1. Tell us the differences between uncontrolled and controlled components.</h5>
               <p className="text-justify">
                 In React, controlled components refer to components that have their state and behavior controlled by the parent component. These components rely on props passed down from the parent component to update their state and behavior. Uncontrolled components refer to components that manage their own state internally.
@@ -51,9 +54,14 @@ const blog = () => {
                 Custom React JS hooks offer reusability as when a custom hook is created, it can be reused easily, which makes the code cleaner and reduces the time to write the code. It also enhances the rendering speed of the code as a custom hook does not need to be rendered again and again while rendering the whole code.
               </p>
               <br></br>
+              
             </div>
+            <Pdf targetRef={ref} filename="Assignment-10-blog-page.pdf">
+          {({ toPdf }) => <button className='btn mb-5' onClick={toPdf}>Download PDF</button>}
+        </Pdf>
           </div>
         </div>
+       
       </div>
       <Footer />
     </>
