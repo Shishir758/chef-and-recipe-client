@@ -4,11 +4,15 @@ import Footer from './Footer';
 import Header from './Header';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import { Rating } from '@smastrom/react-rating'
+
+import '@smastrom/react-rating/style.css'
 
 const ViewRecipes = () => {
   const { id } = useParams();
   const [detailsData, setDetailsData] = useState([]);
   const [viewRecipes, setViewRecipes] = useState(null);
+  const [rating, setRating] = useState(0)
 
   useEffect(() => {
     fetch('../../public/detailsData.json')
@@ -56,7 +60,13 @@ const ViewRecipes = () => {
             <img className="lg:w-1/4 lg:h-1/4 mx-auto rounded-md mt-5 mr-5" src={data.picturefood} alt="" />
             <div className='mt-5'>
               <h1 className='lg:text-4xl md:text-2xl text-2xl my-4'>{data.name}</h1>
-              <p><span className='font-bold'>Rating: </span> {data.rating} </p>
+             
+             <div className='flex-grow-1 flex items-center'>
+             <Rating style={{ maxWidth: 125 }} value={data?.rating} readOnly />
+             
+             <span className='font-bold ms-2'> {data?.rating}</span> 
+             </div>
+             
               <p><span className='font-bold'>Number of Recipes:</span> {data.ingredients.map(s => (<li>{s}</li>))} </p>
               <p><span className='font-bold'>Cooking Method:</span> {data.cookingMethod} </p>
 
