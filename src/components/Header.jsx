@@ -6,10 +6,9 @@ import { Tooltip } from 'react-tooltip'
 
 const Header = () => {
   const { user, logOut, loading } = useContext(AuthContext);
-  console.log(user);
 
   if (loading) {
-    return 
+    return
   }
 
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -34,7 +33,7 @@ const Header = () => {
 
       <div className="block lg:hidden">
         <button
-          className="flex items-center px-3 py-2 border rounded text-teal-200 border-teal-400 hover:text-white hover:border-white"
+          className="flex items-center px-3 py-2 border rounded text-red-600 border-red-600 hover:text-black hover:border-black"
           onClick={toggleMenu}
         >
           <svg
@@ -53,10 +52,10 @@ const Header = () => {
       >
         <div className="text-sm lg:flex-grow text-center mx-auto">
           <NavLink
-            exact
+            exact={true}
             to="/"
             className="block mt-4 lg:inline-block lg:mt-0 font-bold hover:text-blue-500 mr-4 text-xl"
-            activeClassName="text-blue-500"
+            activeStyle={{ color: "blue" }}
           >
             Home
           </NavLink>
@@ -64,7 +63,7 @@ const Header = () => {
           <NavLink
             to="/blog"
             className="block mt-4 lg:inline-block lg:mt-0 font-bold hover:text-blue-500 mr-4 text-xl"
-            activeClassName="text-blue-500"
+            activeStyle="text-blue-500"
           >
             Blog
           </NavLink>
@@ -73,18 +72,18 @@ const Header = () => {
         <div>
           {!user ? (
             <React.Fragment>
-              <NavLink exact to="/register" activeClassName="text-blue-500" className="block mt-4 lg:inline-block lg:mt-0 font-bold hover:text-blue-500 mr-4 text-xl">
+              <NavLink exact to="/register" activeStyle="text-blue-500" className="block mt-4 lg:inline-block lg:mt-0 font-bold hover:text-blue-500 mr-4 text-xl">
                 Register
               </NavLink>
 
-              <NavLink exact to="/login" activeClassName="text-blue-500" className="block mt-4 lg:inline-block lg:mt-0 font-bold hover:text-blue-500 mr-4 text-xl">
+              <NavLink exact to="/login" activeStyle="text-blue-500" className="block mt-4 lg:inline-block lg:mt-0 font-bold hover:text-blue-500 mr-4 text-xl">
                 Sign In
               </NavLink>
             </React.Fragment>
           ) : (
 
-            <button  onClick={handleLogin} className="inline-block text-xl px-4 py-2 leading-none border rounded border-white hover:border-transparent hover:text-teal-500 hover:bg-white mt-4 lg:mt-0 last-child">Log Out</button>
-            
+            <button onClick={handleLogin} className="inline-block text-xl px-4 py-2 leading-none border rounded border-white hover:border-transparent hover:text-teal-500 hover:bg-white mt-4 lg:mt-0 last-child">Log Out</button>
+
 
           )}
           {user && <img data-tooltip-id="my-tooltip" data-tooltip-content={user.displayName}

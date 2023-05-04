@@ -1,5 +1,9 @@
 import React from 'react';
 import './ExtraSection.css';
+import email from '../../assest/email.png'
+import customers from '../../assest/customers.png'
+import projects from '../../assest/projects.png'
+import ribon from '../../assest/ribon.png'
 
 const ExtraSection = () => {
     return (
@@ -16,28 +20,28 @@ const ExtraSection = () => {
                     <div className="projectDiv items-center">
                         <div className="project">
                             <div className="info">
-                                <img className="mx-auto mt-1" src="/public/customers.png" alt="" />
+                                <img className="mx-auto mt-1" src={customers} alt="" />
                                 <h3>54</h3>
                                 <p>Order Running</p>
                             </div>
                         </div>
                         <div className="project">
                             <div className="info">
-                                <img className="mx-auto mt-1" src="/public/projects.png" alt="" />
+                                <img className="mx-auto mt-1" src={projects} alt="" />
                                 <h3>1458</h3>
                                 <p>Order Completed</p>
                             </div>
                         </div>
                         <div className="project">
                             <div className="info">
-                                <img className="mx-auto mt-1" src="/public/ribon.png" alt="" />
+                                <img className="mx-auto mt-1" src={ribon} alt="" />
                                 <h3>590</h3>
                                 <p>Award Winnings</p>
                             </div>
                         </div>
                         <div className="project">
                             <div className="info">
-                                <img className="mx-auto mt-1" src="/public/email.png" alt="" />
+                                <img className="mx-auto mt-1" src={email} alt="" />
                                 <h3>22578</h3>
                                 <p>Email Send</p>
                             </div>

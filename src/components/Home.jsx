@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useContext } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useLoaderData } from 'react-router-dom';
 import { AuthContext } from './provider/AuthProviders';
 import Marquee from 'react-fast-marquee';
 import LazyLoad from 'react-lazyload';
@@ -17,13 +17,13 @@ const Home = () => {
     </div>
   }
 
-  const [detailsData, setDetailsData] = useState([])
+  const [detailsData, setDetailsData] = useState(useLoaderData())
 
-  useEffect(() => {
+ /*  useEffect(() => {
     fetch('https://special-jp-chef-shishir758.vercel.app/detailsData')
       .then(response => response.json())
       .then(data => setDetailsData(data))
-  }, [])
+  }, []) */
 
   const filteredData = detailsData ? detailsData : detailsData;
 

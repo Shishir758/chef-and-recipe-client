@@ -7,12 +7,13 @@ import { Link } from 'react-router-dom';
 import { useContext } from 'react';
 import { AuthContext } from './provider/AuthProviders';
 import { useNavigate, useLocation  } from "react-router-dom";
+import { useEffect } from 'react';
 
 
 const auth = getAuth(app);
 
 const Login = () => {
-  const { loginUser } = useContext(AuthContext);
+  const { loginUser, user } = useContext(AuthContext);
   const [success, setSuccess] = useState('');
   const [error, setError] = useState('');
   const navigate = useNavigate();
@@ -23,6 +24,12 @@ const Login = () => {
   const providerGoogle = new GoogleAuthProvider();
   const providerGithub = new GithubAuthProvider();
 
+/* useEffect(()=>{
+  if(user.uid){
+    navigate(from, { replace: true });
+  }
+},[user.uid]) */
+
   const handleLogin = (event) => {
     event.preventDefault();
     const email = event.target.username.value;
@@ -31,7 +38,7 @@ const Login = () => {
     loginUser(email, password)
       .then((userCredential) => {
         const user = userCredential.user;
-        event.target.reset();
+        // event.target.reset();
         navigate(from, { replace: true });
       })
       .catch((error) => {
@@ -43,6 +50,7 @@ const Login = () => {
     signInWithPopup(auth, providerGoogle)
       .then((result) => {
         const user = result.user;
+        console.log(user);
         navigate(from, { replace: true });
       })
       .catch((error) => {

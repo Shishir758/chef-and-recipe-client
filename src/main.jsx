@@ -16,7 +16,8 @@ const router = createBrowserRouter([
   {
     path: '/',
     element: <App></App>,
-    errorElement: <ErrorPage />
+    errorElement: <ErrorPage />,
+    loader: ()=>fetch('https://special-jp-chef-shishir758.vercel.app/detailsData')
   },
 
   {
