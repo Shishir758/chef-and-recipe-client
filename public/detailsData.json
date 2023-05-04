@@ -2,14 +2,14 @@
   {
     "id": 1,
     "name": "John Smith",
-    "picture": "https://c8.alamy.com/comp/DJA8CR/japanese-chef-at-work-in-a-restaurant-chopping-and-cooking-green-vegetables-DJA8CR.jpg",
+    "picture": "https://images.pexels.com/photos/8951182/pexels-photo-8951182.jpeg?auto=compress&cs=tinysrgb&w=600",
     "years_of_experience": 10,
     "num_recipes": 50,
     "likes": 1000,
     "recipes": [
       {
         "picturefood": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRc_c-Gf6yynk0ENKRjajfZGHmmkfOfHY0FPg&usqp=CAU",
-        "name": "Teriyaki Chicken111",
+        "name": "Teriyaki Chicken",
         "ingredients": [
           "4 boneless, skinless chicken breasts",
           "1/2 cup soy sauce",
@@ -22,7 +22,7 @@
       },
       {
         "picturefood": "https://www.cktravels.com/wp-content/uploads/2020/12/what-to-eat-in-japan-1150x818.jpg",
-        "name": "Miso Soup222222211",
+        "name": "Miso Soup",
         "ingredients": [
           "4 cups water",
           "1/4 cup dried wakame seaweed",
@@ -36,7 +36,7 @@
 
     {
       "picturefood": "https://hips.hearstapps.com/hmg-prod/images/200518-delish-seo-chicken-katsu-hand-2-14652-eb-1590516686.jpg",
-      "name": "Miso Soup444444",
+      "name": "Chicken Soup",
       "ingredients": [
         "4 cups water",
         "1/4 cup dried wakame seaweed",
@@ -62,7 +62,7 @@
     "recipes": [
       {
         "picturefood": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRc_c-Gf6yynk0ENKRjajfZGHmmkfOfHY0FPg&usqp=CAU",
-        "name": "Teriyaki Chicken111",
+        "name": "Teriyaki Chicken",
         "ingredients": [
           "4 boneless, skinless chicken breasts",
           "1/2 cup soy sauce",
@@ -75,7 +75,7 @@
       },
       {
         "picturefood": "https://www.cktravels.com/wp-content/uploads/2020/12/what-to-eat-in-japan-1150x818.jpg",
-        "name": "Miso Soup222222211",
+        "name": "Chicken Soup",
         "ingredients": [
           "4 cups water",
           "1/4 cup dried wakame seaweed",
@@ -89,7 +89,7 @@
 
     {
       "picturefood": "https://hips.hearstapps.com/hmg-prod/images/200518-delish-seo-chicken-katsu-hand-2-14652-eb-1590516686.jpg",
-      "name": "Miso Soup444444",
+      "name": "Miso Soup",
       "ingredients": [
         "4 cups water",
         "1/4 cup dried wakame seaweed",
@@ -117,7 +117,7 @@
     "recipes": [
       {
         "picturefood": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRc_c-Gf6yynk0ENKRjajfZGHmmkfOfHY0FPg&usqp=CAU",
-        "name": "Teriyaki Chicken111",
+        "name": "Teriyaki Chicken",
         "ingredients": [
           "4 boneless, skinless chicken breasts",
           "1/2 cup soy sauce",
@@ -130,7 +130,7 @@
       },
       {
         "picturefood": "https://www.cktravels.com/wp-content/uploads/2020/12/what-to-eat-in-japan-1150x818.jpg",
-        "name": "Miso Soup222222211",
+        "name": "Miso Soup",
         "ingredients": [
           "4 cups water",
           "1/4 cup dried wakame seaweed",
@@ -144,7 +144,7 @@
 
     {
       "picturefood": "https://hips.hearstapps.com/hmg-prod/images/200518-delish-seo-chicken-katsu-hand-2-14652-eb-1590516686.jpg",
-      "name": "Miso Soup444444",
+      "name": "Chicken Soup",
       "ingredients": [
         "4 cups water",
         "1/4 cup dried wakame seaweed",
@@ -170,7 +170,7 @@
     "recipes": [
       {
         "picturefood": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRc_c-Gf6yynk0ENKRjajfZGHmmkfOfHY0FPg&usqp=CAU",
-        "name": "Teriyaki Chicken111",
+        "name": "Teriyaki Chicken",
         "ingredients": [
           "4 boneless, skinless chicken breasts",
           "1/2 cup soy sauce",
@@ -183,7 +183,7 @@
       },
       {
         "picturefood": "https://www.cktravels.com/wp-content/uploads/2020/12/what-to-eat-in-japan-1150x818.jpg",
-        "name": "Miso Soup222222211",
+        "name": "Miso Soup",
         "ingredients": [
           "4 cups water",
           "1/4 cup dried wakame seaweed",
@@ -197,7 +197,7 @@
 
     {
       "picturefood": "https://hips.hearstapps.com/hmg-prod/images/200518-delish-seo-chicken-katsu-hand-2-14652-eb-1590516686.jpg",
-      "name": "Miso Soup444444",
+      "name": "Chicken Soup",
       "ingredients": [
         "4 cups water",
         "1/4 cup dried wakame seaweed",
@@ -213,13 +213,6 @@
     "foodName": "Okonomiyaki",
     "description": "Okonomiyaki is a savory pancake made with flour, eggs, shredded cabbage, and various toppings such as sliced pork, shrimp, and squid. It is often served with okonomiyaki sauce (similar to Worcestershire sauce), mayonnaise, and dried bonito flakes."
   },
-
-
-
-
-
-
-
   {
     "id": 5,
     "name": "Michael Chen",
@@ -230,7 +223,7 @@
     "recipes": [
       {
         "picturefood": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRc_c-Gf6yynk0ENKRjajfZGHmmkfOfHY0FPg&usqp=CAU",
-        "name": "Teriyaki Chicken111",
+        "name": "Teriyaki Chicken",
         "ingredients": [
           "4 boneless, skinless chicken breasts",
           "1/2 cup soy sauce",
@@ -243,7 +236,7 @@
       },
       {
         "picturefood": "https://www.cktravels.com/wp-content/uploads/2020/12/what-to-eat-in-japan-1150x818.jpg",
-        "name": "Miso Soup222222211",
+        "name": "Chicken Soup",
         "ingredients": [
           "4 cups water",
           "1/4 cup dried wakame seaweed",
@@ -257,7 +250,7 @@
 
     {
       "picturefood": "https://hips.hearstapps.com/hmg-prod/images/200518-delish-seo-chicken-katsu-hand-2-14652-eb-1590516686.jpg",
-      "name": "Miso Soup444444",
+      "name": "Miso Soup",
       "ingredients": [
         "4 cups water",
         "1/4 cup dried wakame seaweed",
@@ -273,17 +266,6 @@
     "foodName": "Udon",
     "description": "Udon is a type of thick and chewy noodle made from wheat flour. It is often served in a hot soup made from dashi (fish stock), soy sauce, and mirin (sweet rice wine). Udon can be topped with various ingredients such as tempura, sliced beef, and green onion."
   },
-
-
-
-
-
-
-
-
-
-
-
   {
     "id": 6,
     "name": "Emily Wong",
@@ -294,7 +276,7 @@
     "recipes": [
       {
         "picturefood": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRc_c-Gf6yynk0ENKRjajfZGHmmkfOfHY0FPg&usqp=CAU",
-        "name": "Teriyaki Chicken111",
+        "name": "Teriyaki Chicken",
         "ingredients": [
           "4 boneless, skinless chicken breasts",
           "1/2 cup soy sauce",
@@ -307,7 +289,7 @@
       },
       {
         "picturefood": "https://www.cktravels.com/wp-content/uploads/2020/12/what-to-eat-in-japan-1150x818.jpg",
-        "name": "Miso Soup222222211",
+        "name": "Miso Soup",
         "ingredients": [
           "4 cups water",
           "1/4 cup dried wakame seaweed",
@@ -321,7 +303,7 @@
 
     {
       "picturefood": "https://hips.hearstapps.com/hmg-prod/images/200518-delish-seo-chicken-katsu-hand-2-14652-eb-1590516686.jpg",
-      "name": "Miso Soup444444",
+      "name": "Chicken Soup",
       "ingredients": [
         "4 cups water",
         "1/4 cup dried wakame seaweed",

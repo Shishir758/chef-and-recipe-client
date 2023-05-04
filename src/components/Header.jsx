@@ -1,6 +1,8 @@
 import React, { useContext, useState } from 'react';
 import { NavLink } from 'react-router-dom';
 import { AuthContext } from './provider/AuthProviders';
+import 'react-tooltip/dist/react-tooltip.css'
+import { Tooltip } from 'react-tooltip'
 
 const Header = () => {
   const { user, logOut, loading } = useContext(AuthContext);
@@ -81,14 +83,16 @@ const Header = () => {
             </React.Fragment>
           ) : (
 
-            <button onClick={handleLogin} className="inline-block text-xl px-4 py-2 leading-none border rounded border-white hover:border-transparent hover:text-teal-500 hover:bg-white mt-4 lg:mt-0 last-child">Log Out</button>
+            <button  onClick={handleLogin} className="inline-block text-xl px-4 py-2 leading-none border rounded border-white hover:border-transparent hover:text-teal-500 hover:bg-white mt-4 lg:mt-0 last-child">Log Out</button>
+            
 
           )}
-          {user && <img
+          {user && <img data-tooltip-id="my-tooltip" data-tooltip-content={user.email}
             src={user.profileURL}
             className="h-[45px] w-[45px] rounded-full inline-block"
             alt="" />}
         </div>
+        <Tooltip id="my-tooltip" />
       </div>
     </nav>
   );

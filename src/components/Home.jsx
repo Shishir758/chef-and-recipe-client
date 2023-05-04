@@ -64,7 +64,7 @@ const Home = () => {
         {filteredData.map(dData => (
           <div className='bg-gray-100 rounded-md w-full p-6 justify-center align-middle' key={dData.id}>
             <LazyLoad height={200} >
-              <img className='rounded-lg ' src={dData.picture} alt='' />
+              <img className='rounded-lg h-full' src={dData.picture} alt='' />
             </LazyLoad>
             <p className='font-bold my-2 text-center'>Name: {dData.name}</p>
             <p className='font-bold mb-2'>Experience : {dData.years_of_experience} Years</p>
