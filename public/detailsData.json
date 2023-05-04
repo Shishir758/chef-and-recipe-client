@@ -1,0 +1,341 @@
+[
+  {
+    "id": 1,
+    "name": "John Smith",
+    "picture": "https://c8.alamy.com/comp/DJA8CR/japanese-chef-at-work-in-a-restaurant-chopping-and-cooking-green-vegetables-DJA8CR.jpg",
+    "years_of_experience": 10,
+    "num_recipes": 50,
+    "likes": 1000,
+    "recipes": [
+      {
+        "picturefood": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRc_c-Gf6yynk0ENKRjajfZGHmmkfOfHY0FPg&usqp=CAU",
+        "name": "Teriyaki Chicken111",
+        "ingredients": [
+          "4 boneless, skinless chicken breasts",
+          "1/2 cup soy sauce",
+          "1/4 cup honey",
+          "2 tablespoons rice vinegar",
+          "1 tablespoon sesame oil"
+        ],
+        "cookingMethod": "1. Preheat the oven to 400°F.\n2. In a small saucepan, whisk together the soy sauce, honey, rice vinegar, sesame oil, garlic, ginger, and black pepper. Heat over medium heat until the mixture comes to a boil. In a separate small bowl, whisk together the cornstarch and water until smooth.\n3. Add the cornstarch mixture to the saucepan and whisk until the sauce thickens, about 1 minute. Remove from heat.\n4. Place the chicken breasts in a baking dish and pour the teriyaki sauce over the top, reserving some for serving. Bake for 25-30 minutes, or until the chicken is cooked through.\n5. Serve the chicken with the reserved teriyaki sauce.",
+        "rating": 4.5
+      },
+      {
+        "picturefood": "https://www.cktravels.com/wp-content/uploads/2020/12/what-to-eat-in-japan-1150x818.jpg",
+        "name": "Miso Soup222222211",
+        "ingredients": [
+          "4 cups water",
+          "1/4 cup dried wakame seaweed",
+          "1/2 block silken tofu, diced",
+          "2 tablespoons miso paste",
+          "2 green onions, thinly sliced"
+        ],
+        "cookingMethod": "1. In a medium pot, bring the water to a boil. Add the dried wakame and reduce the heat to low. Simmer for 5 minutes.\n2. Add the diced tofu and simmer for an additional 5 minutes.\n3. In a small bowl, whisk together the miso paste and 1/4 cup of hot water until smooth. Add the miso mixture to the pot and stir to combine.\n4. Serve the miso soup hot, garnished with thinly sliced green onions.",
+        "rating": 4.0
+      },
+
+    {
+      "picturefood": "https://hips.hearstapps.com/hmg-prod/images/200518-delish-seo-chicken-katsu-hand-2-14652-eb-1590516686.jpg",
+      "name": "Miso Soup444444",
+      "ingredients": [
+        "4 cups water",
+        "1/4 cup dried wakame seaweed",
+        "1/2 block silken tofu, diced",
+        "2 tablespoons miso paste",
+        "2 green onions, thinly sliced"
+      ],
+      "cookingMethod": "1. In a medium pot, bring the water to a boil. Add the dried wakame and reduce the heat to low. Simmer for 5 minutes.\n2. Add the diced tofu and simmer for an additional 5 minutes.\n3. In a small bowl, whisk together the miso paste and 1/4 cup of hot water until smooth. Add the miso mixture to the pot and stir to combine.\n4. Serve the miso soup hot, garnished with thinly sliced green onions.",
+      "rating": 4.0
+    }
+    ],
+    "foodName": "Sushi",
+    "description": "A Japanese dish consisting of small balls or rolls of vinegar-flavored cold rice served with a garnish of vegetables, egg, or raw seafood.",
+    "foodImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgkPolGbsQu0f2r7TtSwsqUC6R0nHO9vEsmN2C2WgbVcsM4hIsQ-F_HI3dJjaTSBa5bvc&usqp=CAU"
+  },
+  {
+    "id": 2,
+    "name": "Jane Doe",
+    "picture": "https://thumbs.dreamstime.com/b/japanese-chef-slicing-raw-fish-sushi-15066367.jpg",
+    "years_of_experience": 8,
+    "num_recipes": 30,
+    "likes": 750,
+    "recipes": [
+      {
+        "picturefood": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRc_c-Gf6yynk0ENKRjajfZGHmmkfOfHY0FPg&usqp=CAU",
+        "name": "Teriyaki Chicken111",
+        "ingredients": [
+          "4 boneless, skinless chicken breasts",
+          "1/2 cup soy sauce",
+          "1/4 cup honey",
+          "2 tablespoons rice vinegar",
+          "1 tablespoon sesame oil"
+        ],
+        "cookingMethod": "1. Preheat the oven to 400°F.\n2. In a small saucepan, whisk together the soy sauce, honey, rice vinegar, sesame oil, garlic, ginger, and black pepper. Heat over medium heat until the mixture comes to a boil. In a separate small bowl, whisk together the cornstarch and water until smooth.\n3. Add the cornstarch mixture to the saucepan and whisk until the sauce thickens, about 1 minute. Remove from heat.\n4. Place the chicken breasts in a baking dish and pour the teriyaki sauce over the top, reserving some for serving. Bake for 25-30 minutes, or until the chicken is cooked through.\n5. Serve the chicken with the reserved teriyaki sauce.",
+        "rating": 4.5
+      },
+      {
+        "picturefood": "https://www.cktravels.com/wp-content/uploads/2020/12/what-to-eat-in-japan-1150x818.jpg",
+        "name": "Miso Soup222222211",
+        "ingredients": [
+          "4 cups water",
+          "1/4 cup dried wakame seaweed",
+          "1/2 block silken tofu, diced",
+          "2 tablespoons miso paste",
+          "2 green onions, thinly sliced"
+        ],
+        "cookingMethod": "1. In a medium pot, bring the water to a boil. Add the dried wakame and reduce the heat to low. Simmer for 5 minutes.\n2. Add the diced tofu and simmer for an additional 5 minutes.\n3. In a small bowl, whisk together the miso paste and 1/4 cup of hot water until smooth. Add the miso mixture to the pot and stir to combine.\n4. Serve the miso soup hot, garnished with thinly sliced green onions.",
+        "rating": 4.0
+      },
+
+    {
+      "picturefood": "https://hips.hearstapps.com/hmg-prod/images/200518-delish-seo-chicken-katsu-hand-2-14652-eb-1590516686.jpg",
+      "name": "Miso Soup444444",
+      "ingredients": [
+        "4 cups water",
+        "1/4 cup dried wakame seaweed",
+        "1/2 block silken tofu, diced",
+        "2 tablespoons miso paste",
+        "2 green onions, thinly sliced"
+      ],
+      "cookingMethod": "1. In a medium pot, bring the water to a boil. Add the dried wakame and reduce the heat to low. Simmer for 5 minutes.\n2. Add the diced tofu and simmer for an additional 5 minutes.\n3. In a small bowl, whisk together the miso paste and 1/4 cup of hot water until smooth. Add the miso mixture to the pot and stir to combine.\n4. Serve the miso soup hot, garnished with thinly sliced green onions.",
+      "rating": 4.0
+    }
+    ],
+
+
+    "foodName": "Ramen",
+    "description": "Ramen is a noodle soup dish that originated in China but has become very popular in Japan. The soup is made from a meat or fish broth and is usually flavored with soy sauce or miso. It is often served with toppings such as sliced pork, egg, and green onion."
+
+  },
+  {
+    "id": 3,
+    "name": "David Lee",
+    "picture": "https://st2.depositphotos.com/3261171/7086/i/450/depositphotos_70860003-stock-photo-cooking-sushi-rolls-with-shrimps.jpg",
+    "years_of_experience": 15,
+    "num_recipes": 100,
+    "likes": 2000,
+    "recipes": [
+      {
+        "picturefood": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRc_c-Gf6yynk0ENKRjajfZGHmmkfOfHY0FPg&usqp=CAU",
+        "name": "Teriyaki Chicken111",
+        "ingredients": [
+          "4 boneless, skinless chicken breasts",
+          "1/2 cup soy sauce",
+          "1/4 cup honey",
+          "2 tablespoons rice vinegar",
+          "1 tablespoon sesame oil"
+        ],
+        "cookingMethod": "1. Preheat the oven to 400°F.\n2. In a small saucepan, whisk together the soy sauce, honey, rice vinegar, sesame oil, garlic, ginger, and black pepper. Heat over medium heat until the mixture comes to a boil. In a separate small bowl, whisk together the cornstarch and water until smooth.\n3. Add the cornstarch mixture to the saucepan and whisk until the sauce thickens, about 1 minute. Remove from heat.\n4. Place the chicken breasts in a baking dish and pour the teriyaki sauce over the top, reserving some for serving. Bake for 25-30 minutes, or until the chicken is cooked through.\n5. Serve the chicken with the reserved teriyaki sauce.",
+        "rating": 4.5
+      },
+      {
+        "picturefood": "https://www.cktravels.com/wp-content/uploads/2020/12/what-to-eat-in-japan-1150x818.jpg",
+        "name": "Miso Soup222222211",
+        "ingredients": [
+          "4 cups water",
+          "1/4 cup dried wakame seaweed",
+          "1/2 block silken tofu, diced",
+          "2 tablespoons miso paste",
+          "2 green onions, thinly sliced"
+        ],
+        "cookingMethod": "1. In a medium pot, bring the water to a boil. Add the dried wakame and reduce the heat to low. Simmer for 5 minutes.\n2. Add the diced tofu and simmer for an additional 5 minutes.\n3. In a small bowl, whisk together the miso paste and 1/4 cup of hot water until smooth. Add the miso mixture to the pot and stir to combine.\n4. Serve the miso soup hot, garnished with thinly sliced green onions.",
+        "rating": 4.0
+      },
+
+    {
+      "picturefood": "https://hips.hearstapps.com/hmg-prod/images/200518-delish-seo-chicken-katsu-hand-2-14652-eb-1590516686.jpg",
+      "name": "Miso Soup444444",
+      "ingredients": [
+        "4 cups water",
+        "1/4 cup dried wakame seaweed",
+        "1/2 block silken tofu, diced",
+        "2 tablespoons miso paste",
+        "2 green onions, thinly sliced"
+      ],
+      "cookingMethod": "1. In a medium pot, bring the water to a boil. Add the dried wakame and reduce the heat to low. Simmer for 5 minutes.\n2. Add the diced tofu and simmer for an additional 5 minutes.\n3. In a small bowl, whisk together the miso paste and 1/4 cup of hot water until smooth. Add the miso mixture to the pot and stir to combine.\n4. Serve the miso soup hot, garnished with thinly sliced green onions.",
+      "rating": 4.0
+    }
+    ],
+
+    "foodName": "Mochi",
+    "description": "Mochi is a sweet and chewy rice cake made from glutinous rice. It can be flavored with various ingredients such as red bean paste, green tea, and strawberry. Mochi is often served as a dessert or snack."
+  },
+  {
+    "id": 4,
+    "name": "Sara Johnson",
+    "picture": "https://images.pexels.com/photos/13869904/pexels-photo-13869904.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "years_of_experience": 5,
+    "num_recipes": 20,
+    "likes": 500,
+    "recipes": [
+      {
+        "picturefood": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRc_c-Gf6yynk0ENKRjajfZGHmmkfOfHY0FPg&usqp=CAU",
+        "name": "Teriyaki Chicken111",
+        "ingredients": [
+          "4 boneless, skinless chicken breasts",
+          "1/2 cup soy sauce",
+          "1/4 cup honey",
+          "2 tablespoons rice vinegar",
+          "1 tablespoon sesame oil"
+        ],
+        "cookingMethod": "1. Preheat the oven to 400°F.\n2. In a small saucepan, whisk together the soy sauce, honey, rice vinegar, sesame oil, garlic, ginger, and black pepper. Heat over medium heat until the mixture comes to a boil. In a separate small bowl, whisk together the cornstarch and water until smooth.\n3. Add the cornstarch mixture to the saucepan and whisk until the sauce thickens, about 1 minute. Remove from heat.\n4. Place the chicken breasts in a baking dish and pour the teriyaki sauce over the top, reserving some for serving. Bake for 25-30 minutes, or until the chicken is cooked through.\n5. Serve the chicken with the reserved teriyaki sauce.",
+        "rating": 4.5
+      },
+      {
+        "picturefood": "https://www.cktravels.com/wp-content/uploads/2020/12/what-to-eat-in-japan-1150x818.jpg",
+        "name": "Miso Soup222222211",
+        "ingredients": [
+          "4 cups water",
+          "1/4 cup dried wakame seaweed",
+          "1/2 block silken tofu, diced",
+          "2 tablespoons miso paste",
+          "2 green onions, thinly sliced"
+        ],
+        "cookingMethod": "1. In a medium pot, bring the water to a boil. Add the dried wakame and reduce the heat to low. Simmer for 5 minutes.\n2. Add the diced tofu and simmer for an additional 5 minutes.\n3. In a small bowl, whisk together the miso paste and 1/4 cup of hot water until smooth. Add the miso mixture to the pot and stir to combine.\n4. Serve the miso soup hot, garnished with thinly sliced green onions.",
+        "rating": 4.0
+      },
+
+    {
+      "picturefood": "https://hips.hearstapps.com/hmg-prod/images/200518-delish-seo-chicken-katsu-hand-2-14652-eb-1590516686.jpg",
+      "name": "Miso Soup444444",
+      "ingredients": [
+        "4 cups water",
+        "1/4 cup dried wakame seaweed",
+        "1/2 block silken tofu, diced",
+        "2 tablespoons miso paste",
+        "2 green onions, thinly sliced"
+      ],
+      "cookingMethod": "1. In a medium pot, bring the water to a boil. Add the dried wakame and reduce the heat to low. Simmer for 5 minutes.\n2. Add the diced tofu and simmer for an additional 5 minutes.\n3. In a small bowl, whisk together the miso paste and 1/4 cup of hot water until smooth. Add the miso mixture to the pot and stir to combine.\n4. Serve the miso soup hot, garnished with thinly sliced green onions.",
+      "rating": 4.0
+    }
+    ],
+
+    "foodName": "Okonomiyaki",
+    "description": "Okonomiyaki is a savory pancake made with flour, eggs, shredded cabbage, and various toppings such as sliced pork, shrimp, and squid. It is often served with okonomiyaki sauce (similar to Worcestershire sauce), mayonnaise, and dried bonito flakes."
+  },
+
+
+
+
+
+
+
+  {
+    "id": 5,
+    "name": "Michael Chen",
+    "picture": "https://images.pexels.com/photos/8951182/pexels-photo-8951182.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "years_of_experience": 12,
+    "num_recipes": 60,
+    "likes": 1500,
+    "recipes": [
+      {
+        "picturefood": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRc_c-Gf6yynk0ENKRjajfZGHmmkfOfHY0FPg&usqp=CAU",
+        "name": "Teriyaki Chicken111",
+        "ingredients": [
+          "4 boneless, skinless chicken breasts",
+          "1/2 cup soy sauce",
+          "1/4 cup honey",
+          "2 tablespoons rice vinegar",
+          "1 tablespoon sesame oil"
+        ],
+        "cookingMethod": "1. Preheat the oven to 400°F.\n2. In a small saucepan, whisk together the soy sauce, honey, rice vinegar, sesame oil, garlic, ginger, and black pepper. Heat over medium heat until the mixture comes to a boil. In a separate small bowl, whisk together the cornstarch and water until smooth.\n3. Add the cornstarch mixture to the saucepan and whisk until the sauce thickens, about 1 minute. Remove from heat.\n4. Place the chicken breasts in a baking dish and pour the teriyaki sauce over the top, reserving some for serving. Bake for 25-30 minutes, or until the chicken is cooked through.\n5. Serve the chicken with the reserved teriyaki sauce.",
+        "rating": 4.5
+      },
+      {
+        "picturefood": "https://www.cktravels.com/wp-content/uploads/2020/12/what-to-eat-in-japan-1150x818.jpg",
+        "name": "Miso Soup222222211",
+        "ingredients": [
+          "4 cups water",
+          "1/4 cup dried wakame seaweed",
+          "1/2 block silken tofu, diced",
+          "2 tablespoons miso paste",
+          "2 green onions, thinly sliced"
+        ],
+        "cookingMethod": "1. In a medium pot, bring the water to a boil. Add the dried wakame and reduce the heat to low. Simmer for 5 minutes.\n2. Add the diced tofu and simmer for an additional 5 minutes.\n3. In a small bowl, whisk together the miso paste and 1/4 cup of hot water until smooth. Add the miso mixture to the pot and stir to combine.\n4. Serve the miso soup hot, garnished with thinly sliced green onions.",
+        "rating": 4.0
+      },
+
+    {
+      "picturefood": "https://hips.hearstapps.com/hmg-prod/images/200518-delish-seo-chicken-katsu-hand-2-14652-eb-1590516686.jpg",
+      "name": "Miso Soup444444",
+      "ingredients": [
+        "4 cups water",
+        "1/4 cup dried wakame seaweed",
+        "1/2 block silken tofu, diced",
+        "2 tablespoons miso paste",
+        "2 green onions, thinly sliced"
+      ],
+      "cookingMethod": "1. In a medium pot, bring the water to a boil. Add the dried wakame and reduce the heat to low. Simmer for 5 minutes.\n2. Add the diced tofu and simmer for an additional 5 minutes.\n3. In a small bowl, whisk together the miso paste and 1/4 cup of hot water until smooth. Add the miso mixture to the pot and stir to combine.\n4. Serve the miso soup hot, garnished with thinly sliced green onions.",
+      "rating": 4.0
+    }
+    ],
+
+    "foodName": "Udon",
+    "description": "Udon is a type of thick and chewy noodle made from wheat flour. It is often served in a hot soup made from dashi (fish stock), soy sauce, and mirin (sweet rice wine). Udon can be topped with various ingredients such as tempura, sliced beef, and green onion."
+  },
+
+
+
+
+
+
+
+
+
+
+
+  {
+    "id": 6,
+    "name": "Emily Wong",
+    "picture": "https://thumbs.dreamstime.com/b/japanese-chef-slicing-raw-fish-sushi-15066367.jpg",
+    "years_of_experience": 7,
+    "num_recipes": 25,
+    "likes": 600,
+    "recipes": [
+      {
+        "picturefood": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRc_c-Gf6yynk0ENKRjajfZGHmmkfOfHY0FPg&usqp=CAU",
+        "name": "Teriyaki Chicken111",
+        "ingredients": [
+          "4 boneless, skinless chicken breasts",
+          "1/2 cup soy sauce",
+          "1/4 cup honey",
+          "2 tablespoons rice vinegar",
+          "1 tablespoon sesame oil"
+        ],
+        "cookingMethod": "1. Preheat the oven to 400°F.\n2. In a small saucepan, whisk together the soy sauce, honey, rice vinegar, sesame oil, garlic, ginger, and black pepper. Heat over medium heat until the mixture comes to a boil. In a separate small bowl, whisk together the cornstarch and water until smooth.\n3. Add the cornstarch mixture to the saucepan and whisk until the sauce thickens, about 1 minute. Remove from heat.\n4. Place the chicken breasts in a baking dish and pour the teriyaki sauce over the top, reserving some for serving. Bake for 25-30 minutes, or until the chicken is cooked through.\n5. Serve the chicken with the reserved teriyaki sauce.",
+        "rating": 4.5
+      },
+      {
+        "picturefood": "https://www.cktravels.com/wp-content/uploads/2020/12/what-to-eat-in-japan-1150x818.jpg",
+        "name": "Miso Soup222222211",
+        "ingredients": [
+          "4 cups water",
+          "1/4 cup dried wakame seaweed",
+          "1/2 block silken tofu, diced",
+          "2 tablespoons miso paste",
+          "2 green onions, thinly sliced"
+        ],
+        "cookingMethod": "1. In a medium pot, bring the water to a boil. Add the dried wakame and reduce the heat to low. Simmer for 5 minutes.\n2. Add the diced tofu and simmer for an additional 5 minutes.\n3. In a small bowl, whisk together the miso paste and 1/4 cup of hot water until smooth. Add the miso mixture to the pot and stir to combine.\n4. Serve the miso soup hot, garnished with thinly sliced green onions.",
+        "rating": 4.0
+      },
+
+    {
+      "picturefood": "https://hips.hearstapps.com/hmg-prod/images/200518-delish-seo-chicken-katsu-hand-2-14652-eb-1590516686.jpg",
+      "name": "Miso Soup444444",
+      "ingredients": [
+        "4 cups water",
+        "1/4 cup dried wakame seaweed",
+        "1/2 block silken tofu, diced",
+        "2 tablespoons miso paste",
+        "2 green onions, thinly sliced"
+      ],
+      "cookingMethod": "1. In a medium pot, bring the water to a boil. Add the dried wakame and reduce the heat to low. Simmer for 5 minutes.\n2. Add the diced tofu and simmer for an additional 5 minutes.\n3. In a small bowl, whisk together the miso paste and 1/4 cup of hot water until smooth. Add the miso mixture to the pot and stir to combine.\n4. Serve the miso soup hot, garnished with thinly sliced green onions.",
+      "rating": 4.0
+    }
+    ],
+
+    "foodName": "Tempura",
+    "description": "Tempura is a dish of battered and deep-fried seafood or vegetables. It is often served as an appetizer or snack and can be enjoyed with dipping sauce or salt. Tempura is known for its light and crispy texture."
+  }
+]
+  
