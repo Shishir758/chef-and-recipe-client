@@ -21,5 +21,5 @@
 
 Then clicking Home we redirect to homepage.
 
-[LiveSite Link] https://classy-heliotrope-63d58a.netlify.app/
+[LiveSite Link] https://tiny-scone-b782aa.netlify.app/
 
